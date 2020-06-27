@@ -123,10 +123,10 @@ def computer_move(board, computer, human):
 
 def next_turn(turn):
 	"""Осуществляет переход хода"""
-	if turn == X:
+	if turn == x:
 		return O
 	else:
-		return X
+		return x
 
 def congrat_winner(the_winner, computer, human):
 	if the_winner != TIE:
@@ -151,7 +151,7 @@ def main():
 			move = human_move(board, human)
 			board[move]= human
 		else:
-			move = computer_move(board,computer,human)
+			move = computer_move(board, computer, human)
 			board[move] = computer
 		display_board(board)
 		turn = next_turn(turn)
