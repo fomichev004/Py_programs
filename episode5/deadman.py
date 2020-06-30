@@ -135,10 +135,31 @@ while wrong < MAX_WRONG and so_far != word:
     print("\nВы уже предлагали следующие буквы:\n", used)
     print("\nОтгаданное вами в слове сейчас выглядит так:\n", so_far)
 
-guess = input("\n\nВведите букву: ")
-guess = guess.upper()
-while guess in used:
-    print("Вы уже предлагали букву", guess)
     guess = input("\n\nВведите букву: ")
     guess = guess.upper()
-used.append(guess)
+    while guess in used:
+        print("Вы уже предлагали букву", guess)
+        guess = input("\n\nВведите букву: ")
+        guess = guess.upper()
+    used.append(guess)
+
+    if guess in word:
+        print ("\n Да! Буква", guess, "есть в слове!")
+        new = ""
+        for i in range(len(word)):
+            if guess == word[i]:
+                new += guess
+            else:
+                new +=so_far[i]
+        so_far = new
+    else:
+        print("\n К сожалению, буквы", guess, "нет в слове.")
+        wrong += 1
+
+if wrong == MAX_WRONG:
+    print(HANGMAN[wrong])
+    print("\n Вас повесили!")
+else:
+    print("\n Вы отгдали")
+print("\nБыло загадано слово", word)
+input("\nНажмите Ентер, чтобы выйти.")
