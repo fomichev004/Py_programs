@@ -38,7 +38,7 @@ while True:
 		time.sleep(0.5)
 		
 		pg.typewrite("120")# вписать 120 в поле
-		time.sleep(0.5)
+		time.sleep(1.5)
 		
 		pg.click(1012, 674)# hажать на "время"
 		time.sleep(0.5)

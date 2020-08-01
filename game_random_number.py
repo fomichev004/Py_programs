@@ -8,9 +8,9 @@
 import random
 
 print("Добропожаловать в игру \"Случайное число!\"\n")
-print("Попробуйте отгадать число от 1 до 10000\n\n")
+print("Попробуйте отгадать число от 1 до 100\n\n")
 
-the_number = random.randint(1, 10000)
+the_number = random.randint(1, 100)
 guess = int(input("Ваше предположение: \n"))
 
 tries = 1

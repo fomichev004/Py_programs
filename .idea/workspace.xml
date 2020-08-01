@@ -28,7 +28,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="m" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="ProjectId" id="1eDCb8L35q5t85WDw0l7AnQhomZ" />
   <component name="ProjectViewState">
@@ -39,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python_env" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -82,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1593846844154</updated>
       <workItem from="1593846846342" duration="726000" />
-      <workItem from="1593847601971" duration="349000" />
+      <workItem from="1593847601971" duration="628000" />
     </task>
     <servers />
   </component>
@@ -107,6 +113,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="add def instructionsd11111" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1220" y="279" key="FileChooserDialogImpl" timestamp="1593848228466">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1220" y="279" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1366.738@0.0.1920.1050" timestamp="1593848228466" />
+    <state width="914" height="282" key="GridCell.Tab.0.bottom" timestamp="1593848229539">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="914" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1366.738@0.0.1920.1050" timestamp="1593848229539" />
+    <state width="914" height="282" key="GridCell.Tab.0.center" timestamp="1593848229539">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="914" height="282" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1366.738@0.0.1920.1050" timestamp="1593848229539" />
+    <state width="914" height="282" key="GridCell.Tab.0.left" timestamp="1593848229539">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="914" height="282" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1366.738@0.0.1920.1050" timestamp="1593848229539" />
+    <state width="914" height="282" key="GridCell.Tab.0.right" timestamp="1593848229539">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="914" height="282" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1366.738@0.0.1920.1050" timestamp="1593848229539" />
     <state x="922" y="173" key="SettingsEditor" timestamp="1593847547209">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
